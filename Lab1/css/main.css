@@ -22,3 +22,7 @@ p {
     text-decoration: underline;
     font-weight: bold;
 }
+
+body {
+    background-color: rgba(121, 239, 108, 0.8);
+}
