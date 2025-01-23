@@ -1,28 +1,24 @@
 /*The Font Code is copied from https://fonts.google.com/selection/embed*/
-*{
+* {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
 
-* {
-    font-family: sans-serif
-}
-
 h2 {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 p {
-    font-size: 15px;   
+  font-size: 15px;
 }
 
 .dates {
-    text-decoration: underline;
-    font-weight: bold;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 body {
-    background-color: rgba(121, 239, 108, 0.8);
+  background-color: rgba(121, 239, 108, 0.8);
 }
