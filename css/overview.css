@@ -1,0 +1,21 @@
+/*The Font Code is copied from https://fonts.google.com/selection/embed*/
+* {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p {
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+}
