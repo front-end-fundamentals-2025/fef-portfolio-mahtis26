@@ -28,11 +28,28 @@
       <p>Adress: Odengatan 27, 553 22 Jönköping</p>
     </section>
     <form>
-      <input type="text" value="Enter your e-mail adress here" />
-    </form>
-    <form>
-      <input type="text" value="Enter your request here" />
-      <button>Send</button>
+      <label for="name">Name</label>
+      <input
+        id="name"
+        type="text"
+        name="fullname"
+        placeholder="Enter your full Name here..."
+      />
+      <label for="e-mail">E-Mail Adress</label>
+      <input
+        id="e-mail"
+        type="text"
+        name="e-mail"
+        placeholder="Enter your e-mail adress here..."
+      />
+      <label for="request">Request</label>
+      <textarea
+        id="request"
+        name="request"
+        placeholder="State your request here..."
+        style="height: 200px"
+      ></textarea>
+      <input type="submit" value="Submit" />
     </form>
 
     <aside>
