@@ -1,33 +1,3 @@
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2vw 20vw 20vw;
-  gap: 15px;
-  padding: 20px;
-  background-color: rgba(121, 239, 108, 0.8);
-}
-
-main {
-  grid-column: 1 / 2;
-  grid-row: 2/4;
-}
-
-header {
-  grid-column: 1 / 3;
-  grid-row: 1 / 2;
-  background-color: aliceblue;
-  border-radius: 10px;
-}
-
-aside {
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-
-img {
-  width: 50%;
-}
-
 * {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -35,8 +5,21 @@ img {
   font-style: normal;
 }
 
+body {
+  background-color: rgba(121, 239, 108, 0.8);
+}
+
+img {
+  width: 50%;
+}
+
+h1 {
+  font-size: 200%;
+}
+
 h2 {
-  margin-top: 40px;
+  font-size: 150%;
+  margin-top: 30px;
 }
 
 p {
@@ -57,4 +40,27 @@ ul {
 
 li {
   margin-right: 10px;
+}
+
+header {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+/* The Navbar was inspired by: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp#about*/
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
