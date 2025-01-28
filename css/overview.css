@@ -9,7 +9,7 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 90%;
 }
 
 ul {
@@ -21,4 +21,27 @@ ul {
 
 li {
   margin-right: 10px;
+}
+
+header {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+/* The Navbar was inspired by: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp#about*/
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
