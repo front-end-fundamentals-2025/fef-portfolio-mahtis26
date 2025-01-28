@@ -4,6 +4,9 @@
   font-weight: 300;
   font-style: normal;
 }
+body {
+  background-color: rgba(121, 239, 108, 0.8);
+}
 
 p {
   font-size: 15px;
@@ -13,6 +16,7 @@ ul {
   list-style: none;
   padding-left: 0;
   display: flex;
+  margin-left: 20px;
 }
 
 li {

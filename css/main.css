@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 350px 350px 350px;
+  grid-template-rows: 2vw 20vw 20vw;
   gap: 15px;
   padding: 20px;
   background-color: rgba(121, 239, 108, 0.8);
@@ -9,17 +9,19 @@ body {
 
 main {
   grid-column: 1 / 2;
-  grid-row: 1/3;
+  grid-row: 2/4;
 }
 
-footer {
+header {
   grid-column: 1 / 3;
-  grid-row: 3 / 4;
+  grid-row: 1 / 2;
+  background-color: aliceblue;
+  border-radius: 10px;
 }
 
 aside {
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 2/3;
 }
 
 img {
@@ -38,7 +40,7 @@ h2 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 90%;
 }
 
 .dates {
@@ -50,6 +52,7 @@ ul {
   list-style: none;
   padding-left: 0;
   display: flex;
+  margin-left: 20px;
 }
 
 li {
