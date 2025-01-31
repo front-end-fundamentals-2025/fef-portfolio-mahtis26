@@ -11,7 +11,7 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 300px 522px 522px;
+  grid-template-rows: auto 20vw 30vw 30vw;
   gap: 10px;
   padding: 10px;
 }
@@ -33,17 +33,17 @@ section {
 
 .to-do-app,
 .quote-gen {
-  margin-left: 50px;
+  margin-left: 5%;
 }
 
 .color-pick-tool,
 .weather-now {
-  margin-right: 50px;
+  margin-right: 5%;
 }
 
 .circuit-board {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .circuit-board:hover {
