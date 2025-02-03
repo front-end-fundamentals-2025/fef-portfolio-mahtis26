@@ -85,3 +85,7 @@ header {
   background-color: #ddd;
   color: black;
 }
+
+img {
+  border-radius: 10px;
+}
